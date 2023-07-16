@@ -45,10 +45,7 @@ namespace Main
 
                                 Sistema.MensajeColor(alumno.Mostrar());
                             }
-                            else
-                            {
-                                Sistema.MensajeColor("El alumno ingresado no se encontro","red");
-                            }
+                            
 
                         }
                         else if (botonPresionado == "4") //MOSTRAR TODOS LOS ALUMNOS
